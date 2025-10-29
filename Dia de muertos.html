@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tradiciones Mexicanas - Día de Muertos</title>
+  <style>
+    /* === ESTILOS GENERALES === */
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff7e6;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(135deg, #ff6f00, #d84315);
+      color: white;
+      text-align: center;
+      padding: 50px 20px;
+      background-image: url('https://upload.wikimedia.org/wikipedia/commons/3/3e/Dia_de_muertos.jpg');
+      background-size: cover;
+      background-position: center;
+      background-blend-mode: multiply;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin: 0;
+      text-shadow: 2px 2px 8px #000;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 10px;
+    }
+
+    nav {
+      background-color: #ffb300;
+      text-align: center;
+      padding: 15px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+      margin: 0 20px;
+      font-size: 1.1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 10%;
+    }
+
+    h2 {
+      color: #e65100;
+      border-bottom: 3px solid #ffb300;
+      padding-bottom: 10px;
+      margin-bottom: 30px;
+      text-align: center;
+      font-size: 2rem;
+    }
+
+    .contenido {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 30px;
+    }
+
+    .tarjeta {
+      background-color: #fffaf0;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      width: 350px;
+      padding: 20px;
+      transition: transform 0.3s;
+    }
+
+    .tarjeta:hover {
+      transform: scale(1.03);
+    }
+
+    .tarjeta img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    footer {
+      background-color: #d84315;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 1rem;
+      margin-top: 50px;
+    }
+
+    .decoracion {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #ff6f00;
+    }
+
+    @media (max-width: 768px) {
+      .contenido {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .tarjeta {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1> Tradiciones Mexicanas </h1>
+    <p>Celebrando nuestras raíces, colores y cultura</p>
+  </header>
+
+  <nav>
+    <a href="#diademuertos">Día de Muertos</a>
+    <a href="#catrina">La Catrina</a>
+    <a href="#galeria">Galería</a>
+  </nav>
+
+  <section id="diademuertos">
+    <h2>💀 Día de Muertos</h2>
+    <div class="contenido">
+      <div class="tarjeta">
+        <img src="https://embamex.sre.gob.mx/alemania/images/IMG_0391.jpg" alt="Ofrenda de Día de Muertos">
+        <p>
+          El <strong>Día de Muertos</strong> es una de las tradiciones más representativas de México. Se celebra los días <strong>1 y 2 de noviembre</strong> y tiene como propósito honrar a los seres queridos que ya no están con nosotros.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <img src="https://cdn-3.expansion.mx/dims4/default/4aea896/2147483647/strip/true/crop/940x626+0+0/resize/1200x799!/format/webp/quality/60/?url=https%3A%2F%2Fcdn-3.expansion.mx%2Fa0%2Fcd%2F0ea2fa4141369c3fabaca863b1ed%2Fdonde-comer-pan-de-muerto-cdmx-2024.jpg" alt="Pan de Muerto">
+        <p>
+          Durante esta festividad se colocan <strong>ofrendas</strong> con flores de cempasúchil, pan de muerto, velas, calaveritas y fotografías. Cada elemento tiene un significado: la flor guía el camino de las almas, la vela ilumina su retorno y la comida representa la abundancia del hogar.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <img src="https://e01-phantom-marca-mx.uecdn.es/6e0ab9d725c79332d73b37672b3f9d34/resize/828/f/jpg/mx/assets/multimedia/imagenes/2025/10/27/17615784815910.png" alt="Desfile Día de Muertos">
+        <p>
+          Aunque tiene raíces prehispánicas, esta tradición se fusionó con elementos católicos tras la llegada de los españoles, convirtiéndose en una mezcla única de respeto, arte y alegría. ¡Una celebración a la vida y a la memoria!
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="catrina">
+    <h2>🎭 El Origen de la Catrina</h2>
+    <div class="contenido">
+      <div class="tarjeta">
+        <img src="https://i.pinimg.com/736x/be/6d/fb/be6dfbcddb9feb50abf0e6a5b0b7fb26.jpg" alt="La Catrina de José Guadalupe Posada">
+        <p>
+          La <strong>Catrina</strong> fue creada por el grabador <strong>José Guadalupe Posada</strong> a principios del siglo XX bajo el nombre de <em>"La Calavera Garbancera"</em>. Representaba una crítica a las clases altas mexicanas que despreciaban sus raíces indígenas y querían parecer europeas.
+        </p>
+      </div>
+      <div class="tarjeta">
+        <img src="https://offloadmedia.feverup.com/cdmxsecreta.com/wp-content/uploads/2023/05/09165649/mega-procesion-de-catrinas-2024-cdmx-1024x683.jpg" alt="Catrinas en desfile">
+        <p>
+          Con el tiempo, <strong>Diego Rivera</strong> la incluyó en su mural “Sueño de una tarde dominical en la Alameda Central”, dándole el elegante nombre de <strong>La Catrina</strong>. Hoy es símbolo de la muerte festiva, de la ironía mexicana ante la vida y el destino.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>🕯️ Galería de Tradiciones</h2>
+    <div class="contenido">
+      <div class="tarjeta"><img src="https://www.caminoreal.com/storage/app/media/Blog/campos-cempasuchil-visitar-dia-muertos.jpg" alt="Cempasúchil"><p>Flores de Cempasúchil</p></div>
+      <div class="tarjeta"><img src="https://media.admagazine.com/photos/618a62eea1fa32def5822dc6/master/w_1600%2Cc_limit/77805.jpg" alt="Calaveritas"><p>Calaveritas de Azúcar</p></div>
+      <div class="tarjeta"><img src="https://www.hola.com/horizon/landscape/5d362c134c96-d-a-de-muertos-papel-picado.jpg" alt="Papel Picado"><p>Papel Picado de Colores</p></div>
+      <div class="tarjeta"><img src="https://jdr.mx/wp-content/uploads/2020/10/altar_jdr-1.jpg" alt="Altares"><p>Altares del Recuerdo</p></div>
+    </div>
+  </section>
+
+  <div class="decoracion">🌸💀🌼💀🌸</div>
+
+</body>
+</html>
